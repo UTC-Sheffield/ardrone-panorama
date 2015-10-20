@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
 var argv = require('optimist')
-    .usage('Usage: $0 -h [height in meters] -c [number of pictures]')
+    .usage('Usage: $0 -h [height in meters] -c [number of pictures] -o [output folder] -f [output file]')
     .demand(['h'])
     .default('c', 8)
+    .default('o', "/tmp/panorama/")
+    .default('f', "output.png")
     .argv;
 
 var panorama = require('../lib/panorama');
 
-panorama.go(argv.h, argv.c);
-
-
+panorama.go(argv.h, argv.c, argv.o, argv.f);

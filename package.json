@@ -27,6 +27,6 @@
     "panorama": "./bin/panorama"
   },
   "main": "./lib/panorama",
-  "author": "Laurent Eschenauer <laurent@eschenauer.be>",
+  "author": "Laurent Eschenauer <laurent@eschenauer.be>, Martyn Eggleton <meggleton@utcsheffield.org.uk>",
   "license": "MIT"
 }
