@@ -17,10 +17,11 @@
     "panorama"
   ],
   "dependencies": {
-    "dateformat" : "1.0.x",
+    "dateformat": "1.0.x",
     "ardrone-autonomy": "0.1.x",
     "ar-drone": "0.2.x",
-    "optimist": "0.6.x"
+    "optimist": "0.6.x",
+    "panoramit": "0.0.4"
   },
   "bin": {
     "panorama": "./bin/panorama"
